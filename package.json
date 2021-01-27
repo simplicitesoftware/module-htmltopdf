@@ -1,0 +1,9 @@
+{
+    "name": "HTMLToPDFTests",
+    "format": "xml",
+    "description": "",
+    "files": ["HTMLToPDFTests.xml"],
+    "repository": {},
+    "version": "5.2",
+    "dependencies": {"Simplicite": "5"}
+}
