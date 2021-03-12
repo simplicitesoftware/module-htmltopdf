@@ -21,4 +21,17 @@ public class HtpTestObject extends com.simplicite.util.ObjectDB {
 			return e.getMessage();
 		}
 	}
+	
+	/**
+	 * Unit tests method
+	 */
+	@Override
+	public String unitTests() {
+		try {
+			return toHTML();
+		} catch (Exception e) {
+			AppLog.error(null, e, getGrant());
+			return e.getMessage();
+		}
+	}
 }
