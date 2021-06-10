@@ -88,7 +88,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
-		<fld_tray>0</fld_tray>
+		<fld_tray/>
 		<fld_type>15</fld_type>
 		<fld_type_id.flt_code>CODE</fld_type_id.flt_code>
 		<fld_list_id.lov_name/>
@@ -108,7 +108,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
-		<fld_comment/>
+		<fld_comment><![CDATA[Code]]></fld_comment>
 		<fld_classification/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
@@ -125,7 +125,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
-		<fld_tray>0</fld_tray>
+		<fld_tray/>
 		<fld_type>11</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
@@ -145,7 +145,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
-		<fld_comment/>
+		<fld_comment><![CDATA[Description]]></fld_comment>
 		<fld_classification/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
@@ -162,7 +162,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<fld_more>0</fld_more>
 		<fld_listmore>0</fld_listmore>
 		<fld_listsum/>
-		<fld_tray>0</fld_tray>
+		<fld_tray/>
 		<fld_type>3</fld_type>
 		<fld_type_id.flt_code/>
 		<fld_list_id.lov_name/>
@@ -182,7 +182,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<fld_speech/>
 		<fld_calc/>
 		<fld_objlist/>
-		<fld_comment/>
+		<fld_comment><![CDATA[Label]]></fld_comment>
 		<fld_classification/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>

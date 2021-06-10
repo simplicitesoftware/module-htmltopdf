@@ -28,7 +28,7 @@ Test object
 
 | Name                                                         | Type                                     | Required | Updatable | Personal | Description                                                                      |
 |--------------------------------------------------------------|------------------------------------------|----------|-----------|----------|----------------------------------------------------------------------------------|
-| `htpHtpoCode`                                                | regexp(100)                              | yes*     | yes       |          | -                                                                                |
-| `htpHtpoLabel`                                               | char(255)                                | yes      | yes       |          | -                                                                                |
-| `htpHtpoDescription`                                         | html(1000000)                            |          | yes       |          | -                                                                                |
+| `htpHtpoCode`                                                | regexp(100)                              | yes*     | yes       |          | Code                                                                             |
+| `htpHtpoLabel`                                               | char(255)                                | yes      | yes       |          | Label                                                                            |
+| `htpHtpoDescription`                                         | html(1000000)                            |          | yes       |          | Description                                                                      |
 
