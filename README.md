@@ -17,7 +17,7 @@ HTML to PDF tests
 These are HTML to PDF publication examples
 using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 
-> **Note**: this modules requires Simplicité **5.2+**
+> **Note**: this modules requires Simplicité **5.1+**
 
 `HtpTestObject` business object definition
 ------------------------------------------
