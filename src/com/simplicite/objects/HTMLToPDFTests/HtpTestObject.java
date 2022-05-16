@@ -10,8 +10,12 @@ import com.simplicite.util.tools.HTTPTool;
  */
 public class HtpTestObject extends com.simplicite.util.ObjectDB {
 	private static final long serialVersionUID = 1L;
-	
-	public Object publication1(PrintTemplate pt) {
+
+	/**
+	 * Publish list from HTML to PDF
+	 * @param pt Publication template
+	 */
+	public Object pdf1(PrintTemplate pt) {
 		try {
 			pt.setMIMEType(HTTPTool.MIME_TYPE_PDF);
 			return HTMLToPDFTool.toPDF(pt.fillTemplate(this, pt.getTemplate(true), getCurrentList()));
@@ -21,7 +25,21 @@ public class HtpTestObject extends com.simplicite.util.ObjectDB {
 			return e.getMessage();
 		}
 	}
-	
+
+	/**
+	 * Publish item from HTML to PDF
+	 * @param pt Publication template
+	 */
+	public Object pdf2(PrintTemplate pt) {
+		try {
+			pt.setMIMEType(HTTPTool.MIME_TYPE_PDF);
+			return HTMLToPDFTool.toPDF(pt.fillTemplate(this, pt.getTemplate(true), getValues()));
+		} catch (Throwable e) {
+			AppLog.error(e.getMessage(), e, getGrant());
+			pt.setMIMEType(HTTPTool.MIME_TYPE_TXT);
+			return e.getMessage();
+		}
+	}
 	/**
 	 * Unit tests method
 	 */

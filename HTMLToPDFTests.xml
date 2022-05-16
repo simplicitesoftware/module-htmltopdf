@@ -227,8 +227,8 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<obd_comment/>
 		<obd_type>D</obd_type>
 		<obd_view_id.viw_name/>
-		<obd_nohome>0</obd_nohome>
-		<obd_icon>fas/file-pdf</obd_icon>
+		<obd_nohome>1</obd_nohome>
+		<obd_icon>img/color/pdf</obd_icon>
 		<obd_order>88000</obd_order>
 		<obd_domain_id.obd_name/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
@@ -267,7 +267,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<obo_list_edit>N;L;E</obo_list_edit>
 		<obo_useform>1</obo_useform>
 		<obo_title/>
-		<obo_icon>fas/file</obo_icon>
+		<obo_icon>img/color/pdf</obo_icon>
 		<obo_refcount>0</obo_refcount>
 		<obo_tree>0</obo_tree>
 		<obo_viewmode>T</obo_viewmode>
@@ -453,12 +453,28 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<prt_grantable>0</prt_grantable>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 		<prt_lang>ANY</prt_lang>
-		<prt_translation>Test 1</prt_translation>
+		<prt_translation>PDF</prt_translation>
 		<prt_filename/>
 		<prt_mimetype/>
 		<prt_type>METH</prt_type>
-		<prt_method>publication1</prt_method>
+		<prt_method>pdf1</prt_method>
 		<prt_file>files/PrintTemplate/HtpTestObject-P1.html</prt_file>
+		<prt_template_id.tpl_name/>
+	</data>
+	<data>
+		<prt_object_id.obo_name>HtpTestObject</prt_object_id.obo_name>
+		<prt_name>HtpTestObject-P2</prt_name>
+		<prt_usage>O</prt_usage>
+		<prt_visible>1</prt_visible>
+		<prt_grantable>0</prt_grantable>
+		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
+		<prt_lang>ANY</prt_lang>
+		<prt_translation>PDF</prt_translation>
+		<prt_filename/>
+		<prt_mimetype/>
+		<prt_type>METH</prt_type>
+		<prt_method>pdf2</prt_method>
+		<prt_file>files/PrintTemplate/HtpTestObject-P2.html</prt_file>
 		<prt_template_id.tpl_name/>
 	</data>
 </object>
@@ -633,7 +649,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<tsl_typeObject>O</tsl_typeObject>
 		<tsl_id.obo_name>HtpTestObject</tsl_id.obo_name>
 		<tsl_lang>ENU</tsl_lang>
-		<tsl_value>Test object</tsl_value>
+		<tsl_value>Test object for PDF</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
@@ -641,7 +657,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<tsl_typeObject>O</tsl_typeObject>
 		<tsl_id.obo_name>HtpTestObject</tsl_id.obo_name>
 		<tsl_lang>FRA</tsl_lang>
-		<tsl_value>Objet de test</tsl_value>
+		<tsl_value>Objet de test pour PDF</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
