@@ -14,7 +14,6 @@
     }
 }]]></mdl_url>
 		<mdl_type/>
-		<mdl_lastupd/>
 		<mdl_comment><![CDATA[HTML to PDF tests
 -----------------
 
@@ -241,6 +240,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 	<data>
 		<obo_name>HtpTestObject</obo_name>
 		<obo_dbtable>htp_test_object</obo_dbtable>
+		<obo_role>OBJ</obo_role>
 		<obo_class/>
 		<obo_script_id>src/com/simplicite/objects/HTMLToPDFTests/HtpTestObject.java</obo_script_id>
 		<obo_usets>1</obo_usets>
@@ -480,7 +480,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 	<data>
 		<res_object>
 			<object>
-							<name>Disposition</name>
+				<name>Disposition</name>
 				<data>
 					<dis_code>default</dis_code>
 				</data>
@@ -491,14 +491,13 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<res_code>HTP_STYLES</res_code>
 		<res_cached>0</res_cached>
 		<res_file>resources/Disposition/default/HTP_STYLES.less</res_file>
-		<res_file_compiled>resources/Disposition/default/HTP_STYLES.min.css</res_file_compiled>
 		<res_image/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
 	<data>
 		<res_object>
 			<object>
-							<name>Disposition</name>
+				<name>Disposition</name>
 				<data>
 					<dis_code>default</dis_code>
 				</data>
@@ -509,7 +508,6 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<res_code>HTP_LOGO</res_code>
 		<res_cached>0</res_cached>
 		<res_file/>
-		<res_file_compiled/>
 		<res_image>resources/Disposition/default/HTP_LOGO.png</res_image>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
