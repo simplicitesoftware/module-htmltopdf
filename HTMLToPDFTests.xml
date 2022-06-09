@@ -228,7 +228,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<obd_type>D</obd_type>
 		<obd_view_id.viw_name/>
 		<obd_nohome>1</obd_nohome>
-		<obd_icon>img/color/pdf</obd_icon>
+		<obd_icon>fas/file-pdf</obd_icon>
 		<obd_order>58000</obd_order>
 		<obd_domain_id.obd_name/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
@@ -267,7 +267,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<obo_list_edit>N;L;E</obo_list_edit>
 		<obo_useform>1</obo_useform>
 		<obo_title/>
-		<obo_icon>img/color/pdf</obo_icon>
+		<obo_icon>fas/file-pdf</obo_icon>
 		<obo_refcount>0</obo_refcount>
 		<obo_tree>0</obo_tree>
 		<obo_viewmode>T</obo_viewmode>
@@ -629,7 +629,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<tsl_typeObject>O</tsl_typeObject>
 		<tsl_id.obd_name>HtpTestsDomain</tsl_id.obd_name>
 		<tsl_lang>ENU</tsl_lang>
-		<tsl_value>HTML to PDF</tsl_value>
+		<tsl_value>HTML to PDF tests</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
@@ -637,7 +637,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<tsl_typeObject>O</tsl_typeObject>
 		<tsl_id.obd_name>HtpTestsDomain</tsl_id.obd_name>
 		<tsl_lang>FRA</tsl_lang>
-		<tsl_value>HTML vers PDF</tsl_value>
+		<tsl_value>Tests HTML vers PDF</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
