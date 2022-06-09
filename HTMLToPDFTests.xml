@@ -13,7 +13,7 @@
         "uri": "https://github.com/simplicitesoftware/module-htmltopdf.git"
     }
 }]]></mdl_url>
-		<mdl_type/>
+		<mdl_type>T</mdl_type>
 		<mdl_comment><![CDATA[HTML to PDF tests
 -----------------
 
@@ -229,7 +229,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<obd_view_id.viw_name/>
 		<obd_nohome>1</obd_nohome>
 		<obd_icon>img/color/pdf</obd_icon>
-		<obd_order>88000</obd_order>
+		<obd_order>58000</obd_order>
 		<obd_domain_id.obd_name/>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
@@ -485,7 +485,7 @@ using the [OpenHTMLToPDF lib](https://github.com/danfickle/openhtmltopdf).
 		<map_domain_id.obd_name>HtpTestsDomain</map_domain_id.obd_name>
 		<map_object_id.obj_name>HtpTestObject</map_object_id.obj_name>
 		<map_process_id.pcs_name/>
-		<map_order>88010</map_order>
+		<map_order>58010</map_order>
 		<map_ext>0</map_ext>
 		<row_module_id.mdl_name>HTMLToPDFTests</row_module_id.mdl_name>
 	</data>
